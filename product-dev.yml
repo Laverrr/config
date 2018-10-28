@@ -1,12 +1,4 @@
 spring:
-  application:
-    name: product
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config
-      profile: dev
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
